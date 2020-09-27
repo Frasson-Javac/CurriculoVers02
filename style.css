@@ -1,0 +1,184 @@
+body {
+    width: 800px;
+    background-color: teal;
+}
+
+.fundoDoc {
+    position: relative;
+    bottom: 15px;
+    top: 2px;
+    left: 200px;
+    background-color: white;
+    border: solid 2px black;
+}
+
+#colunaL {
+    position: relative;
+    top: 30px;
+    margin-left: 5px;
+    border: solid 4px rgba(1, 24, 24, 0.377);
+    background-color: #e4f5f0;
+    width: 25%;
+    height: 500px;
+    float: left;
+}
+
+#superior {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.foto {
+    position: relative;
+    right: 29px;
+    bottom: 30px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    margin-left: 80px;
+    border: solid 4px black;
+    background-image: url(img/IMG-1165.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border-radius: 80%;
+    width: 40px;
+    height: 40px;
+}
+
+.nome {
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10px;
+}
+
+.conteudo {
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    color: dimgrey;
+    font-family: 'Bangers', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    position: relative;
+    bottom: 10px;
+    font-size: 12pt;
+    color: #2d66eb;
+}
+
+p {
+    display: inline;
+    font-family: 'Arvo', serif;
+    font-size: 6pt;
+    line-height: 2em;
+}
+
+.pPosicao {
+    position: relative;
+    bottom: 35px;
+}
+
+.redesocial {
+    padding-top: 1px;
+    background-color: white;
+    position: relative;
+    bottom: 35px;
+}
+
+#github {
+    width: 50px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+#linkedin {
+    width: 40px;
+}
+
+#clear {
+    clear: both;
+}
+
+.pos {
+    width: 550px;
+    height: 600px;
+    position: relative;
+    left: 225px;
+}
+
+.titulo {
+    background-color: black;
+}
+
+.histProf {
+    color: white
+}
+
+#conteiner {
+    font-size: 5pt;
+    text-align: justify;
+    width: 100%;
+    float: right;
+    position: absolute;
+    margin-top: 15px;
+}
+
+span {
+    background-color: #e4f5f0;
+    font-family: 'Arvo', serif;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+#habil {
+    position: relative;
+    top: 230px;
+    right: 200px;
+}
+
+ul {
+    position: relative;
+    left: 10px;
+}
+
+li {
+    color: black;
+    padding-bottom: 7px;
+    font-family: 'Arvo', serif;
+    font-family: 'Bangers', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-size: 8pt;
+}
+
+.java {
+    width: 25px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.html {
+    width: 25px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.css {
+    width: 15px;
+    position: relative;
+    top: 4px;
+    left: 8px;
+}
+
+.sql {
+    width: 15px;
+    position: relative;
+    top: 4px;
+    left: 8px;
+}
