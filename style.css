@@ -4,38 +4,40 @@ body {
 }
 
 .fundoDoc {
-    width: 700px;
+    /* conteinaer on tem todos os elementos*/
+    width: 600px;
     position: relative;
     bottom: 15px;
     top: 2px;
     left: 200px;
     background-color: white;
-    border: solid 2px black;
+    border: solid 7px black;
 }
 
 #colunaL {
+    /*  coluna lateral onde tem a foto e contato*/
     position: relative;
-    top: 19px;
-    margin-left: 5px;
+    top: 2px;
+    margin-left: 1px;
     border: solid 4px rgba(1, 24, 24, 0.377);
     background-color: #e4f5f0;
     width: 25%;
-    height: 590px;
+    height: 595px;
     float: left;
 }
 
-#superior {
-    margin-top: 10px;
+#conteinerFotoPerfil {
+    position: relative;
+    bottom: 27px;
     width: 100%;
 }
 
 .foto {
-    position: relative;
-    right: 29px;
+    position: sticky;
     bottom: 30px;
     padding-left: 60px;
     padding-bottom: 60px;
-    margin-left: 80px;
+    margin-left: 20px;
     border: solid 4px black;
     background-image: url(img/IMG-1165.jpg);
     background-repeat: no-repeat;
@@ -61,6 +63,16 @@ body {
     font-family: 'Bangers', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 15px;
+}
+
+h2[class='h'] {
+    color: white;
+    font-size: 17px;
 }
 
 h3 {
@@ -103,19 +115,22 @@ p {
     clear: both;
 }
 
-.pos {
-    width: 550px;
+.conteudoHistoricoProf {
+    width: 360px;
     height: 600px;
     position: relative;
-    left: 225px;
+    left: 190px;
 }
 
 .titulo {
     background-color: black;
+    padding-right: 15px;
 }
 
 .histProf {
-    color: white
+    color: white;
+    font-size: 20px;
+    border: solid 1px yellow;
 }
 
 #conteiner {
@@ -136,13 +151,15 @@ span {
 
 #habil {
     position: relative;
-    top: 230px;
-    right: 200px;
+    top: 305px;
+    right: 27px;
+    padding: 20px;
+    width: 110%;
+    height: 230px;
 }
 
 ul {
-    position: relative;
-    left: 10px;
+    position: absolute;
 }
 
 li {
